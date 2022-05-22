@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+        color: white;
+        background-color: blueviolet;
+    }
+    #form{
+        display: grid;
+        margin: auto;
+        width: 40%;
+        font-size: 20px;
+        background-color: aqua;
+        padding: 20px;
+    }
+    #form>input{
+        margin: 10px 0px;
+        padding: 15px;
+        font-size: 20px;
+    }
+    #form>label{
+        text-align: left;
+        color: blue;
+    }
+
+</style>
+<body>
+    <div id="nav">
+       <p>Ftweb-13- 2, Ftweb-12 -5
+       </p>
+    </div>
+    <button>
+        <a href="dashboard.html">Dashboard</a>
+    </button>
+    <h1>Add Students Data</h1>
+    <form id="form" onsubmit="storeData(event)">
+        <label>Name</label>
+        <input type="text" id="name">
+        <label>Course</label>
+        <input type="text" name="" id="course">
+        <label>Unit</label>
+        <input type="number" name="" id="unit">
+        <label>Image</label>
+        <input type="img" name="" id="image">
+        <label>Batch</label>
+        <input type="text" name="" id="batch">
+        <input type="submit" value="Submit" id="submit">
+    </form>
+<!-- //calculate() -->
+
+</body>
+</html>
+<script src="index.js"></script>
